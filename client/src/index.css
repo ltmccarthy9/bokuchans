@@ -12,6 +12,13 @@ code {
     monospace;
 }
 
+h1{
+  font-family: 'Nunito', sans-serif;
+}
+
+h4 {
+  font-family: 'Nunito', sans-serif;
+}
 .banner{
   height: 150px;
   background-color: rgb(255, 184, 52);
