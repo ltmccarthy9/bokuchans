@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
@@ -21,8 +22,12 @@ h4 {
 }
 .banner{
   height: 150px;
-  background-color: rgb(255, 184, 52);
+  background-color: rgb(255, 162, 49);
   display: flex;
+  margin: auto;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .title {
@@ -38,16 +43,44 @@ h4 {
   transition: all .11s ease-in 100ms;
 }
 
+.logo {
+  height: 300px;
+  width: 300px
+}
+
 .navcard:hover{
   cursor: pointer;
-  color: rgb(246, 6, 6);
+  color: rgb(255, 74, 19);
   transform: scale(1.2);
 }
+
+.home {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  transition: all .08s ease-in 100ms;
+  height: 400px;
+  width: 58%;
+  margin-top: 100px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  
+}
+
+.home:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  box-shadow: 2px 2px 10px rgb(45, 44, 44);
+}
+
 
 @media only screen and (max-width: 660px) {
   .banner {
     display: inline-block;
-    height: 200px;
+    height: 250px;
     width: 100%;
   }
 }

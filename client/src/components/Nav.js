@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
+
 const Nav = () => {
    const navigate = useNavigate();
     
@@ -16,9 +17,13 @@ const Nav = () => {
    }
 
    const goEvents = () => {
-    navigate("/events-info");
+    navigate("/events");
    }
-   
+
+   const goInfo = () => {
+    navigate("/info")
+   }
+
    return (
         <div className="banner">
             <div onClick={goHome} className="navcard">
@@ -31,7 +36,10 @@ const Nav = () => {
                 <h4>Japanese Curry House</h4>
             </div>
             <div onClick={goEvents} className="navcard">
-                <h4>Events & Additional Info</h4>
+                <h4>Events</h4>
+            </div>
+            <div onClick={goInfo} className="navcard">
+                <h4>Additional Information</h4>
             </div>
             
         </div>

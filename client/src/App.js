@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Sauce from "./pages/Sauce";
 import Curry from "./pages/Curry";
 import Events from "./pages/Events";
+import Info from "./pages/Info";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/sauce-food" element ={<Sauce />} />
       <Route path="/curry" element ={<Curry />} />
-      <Route path="/events-info" element ={<Events />} />
+      <Route path="/events" element ={<Events />} />
+      <Route path="/info" element ={<Info />} />
     </Routes>
     </Router>
   );
