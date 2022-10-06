@@ -42,3 +42,11 @@ h4 {
   cursor: pointer;
   color: rgb(246, 6, 6);
 }
+
+@media only screen and (max-width: 660px) {
+  .banner {
+    display: inline-block;
+    height: 200px;
+    width: 100%;
+  }
+}
