@@ -30,16 +30,16 @@ const Nav = () => {
                 <h1 className="title">Bokuchan's</h1>
             </div>
             <div onClick={goSauce} className="navcard">
-                <h4>Sauces & Foods</h4>
+                <h5>Sauces & Foods</h5>
             </div>
             <div onClick={goCurry} className="navcard">
-                <h4>Japanese Curry House</h4>
+                <h5>Japanese Curry House</h5>
             </div>
             <div onClick={goEvents} className="navcard">
-                <h4>Events</h4>
+                <h5>Events</h5>
             </div>
             <div onClick={goInfo} className="navcard">
-                <h4>Additional Information</h4>
+                <h5>Additional Information</h5>
             </div>
             
         </div>

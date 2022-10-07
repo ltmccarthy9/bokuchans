@@ -17,7 +17,7 @@ h1{
   color:brown;
 }
 
-h4 {
+h5 {
   font-weight:400;
 }
 .banner{
@@ -67,11 +67,12 @@ h4 {
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
+  border-style: solid;
 }
 
 .home:hover{
   cursor: pointer;
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 
