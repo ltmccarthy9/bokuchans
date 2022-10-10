@@ -25,10 +25,12 @@ const Nav = () => {
    }
 
    return (
-        <div className="banner">
-            <div onClick={goHome} className="navcard">
-                <h1 className="title">Bokuchan's</h1>
+    <div className="banner">
+        <div onClick={goHome} className="boku">
+                <h1 className="title">Bokuchan's.</h1>
             </div>
+        <div className="pages">
+            
             <div onClick={goSauce} className="navcard">
                 <h5>Sauces & Foods</h5>
             </div>
@@ -43,6 +45,8 @@ const Nav = () => {
             </div>
             
         </div>
+    </div>
+        
     );
 }
 
