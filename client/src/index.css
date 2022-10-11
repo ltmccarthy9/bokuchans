@@ -82,19 +82,29 @@ h5 {
   align-items: center;
   align-content: center;
   justify-content: center;
-  transition: all .08s ease-in 100ms;
   height: auto;
   width:auto;
   margin-top: 100px;
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
-  padding: 0px;
+  padding-top: 11px;
+  border-radius: 30px;
+  width: 30%;
+  background-color: rgb(253, 118, 68);
+  transition: all .2s ease-in;
+}
+
+.home p{
+  font-size: 130%;
+  color: white;
+  font-weight: 400;
 }
 
 .home:hover{
   cursor: pointer;
-  transform: scale(1.2);
+  background-color: rgb(255, 47, 0) ;
+  transform: scale(1.05);
 }
 
 
