@@ -1,9 +1,11 @@
+
 import { useNavigate } from "react-router-dom";
 
 
 const Nav = () => {
-   const navigate = useNavigate();
-    
+
+    const navigate = useNavigate();
+
    const goHome = () => {
     navigate("/");
    }
@@ -21,7 +23,7 @@ const Nav = () => {
    }
 
    const goInfo = () => {
-    navigate("/info")
+    navigate("/info");
    }
 
    return (
@@ -31,7 +33,7 @@ const Nav = () => {
             </div>
         <div className="pages">
             
-            <div onClick={goSauce} className="navcard">
+            <div onClick={goSauce} className={"navcard"}>
                 <h5>Sauces & Foods</h5>
             </div>
             <div onClick={goCurry} className="navcard">
